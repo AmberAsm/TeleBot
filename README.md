@@ -14,8 +14,8 @@ TelMsg 是一个基于 **Telegram Bot** 和 **Gin** 框架的非常简单通知�
 ### 1. 克隆项目
 首先，克隆项目到本地机器上：
 ```sh
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/AmberAsm/TeleBot.git
+cd TeleBot
 ```
 
 ### 2.安装依赖
