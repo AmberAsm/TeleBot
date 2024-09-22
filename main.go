@@ -107,7 +107,7 @@ func createBot() (*tele.Bot, error) {
 		}
 		// 存储用户的 token
 		MapToken[c.Sender().ID] = c.Sender()
-		return c.Send("你好，注册成功")
+		return c.Send("你好，注册成功,您的ID是:" + strconv.FormatInt(c.Sender().ID, 10))
 	})
 
 	b.Handle(tele.OnText, func(c tele.Context) error {
